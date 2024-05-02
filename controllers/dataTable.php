@@ -1,6 +1,6 @@
 <?php 
     include("../database/databaseService.php");
-    include("../credentials.php")
+    include("../credentials.php");
     $db = new PDO('mysql:host=localhost;dbname=u67322', $user, $pass,
     [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
